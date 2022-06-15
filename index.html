@@ -1,77 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <title>Frontend Mentor | Interactive rating component</title>
-  <link rel="stylesheet" href="./css/style.css">
-  <script src="./js/handelFeedback.js" defer></script>
-</head>
-
-<body>
-
-  <!-- Rating state start -->
-  <main>
-    <section class="rating-section">
-      <div class="ask-section">
-        <div class="top-img">
-          <img src="./images/icon-star.svg" alt="">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Interactive rating component</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/handelFeedback.js" defer></script>
+  </head>
+  <body>
+    <!-- Rating state start -->
+    <main>
+      <section class="rating-section">
+        <div class="ask-section">
+          <div class="top-img">
+            <img src="./images/icon-star.svg" alt="" />
+          </div>
+          <section class="let-us-know">
+            <h1>How did we do?</h1>
+            <p>
+              Please let us know how we did with your support request. All
+              feedback is appreciated to help us improve our offering!
+            </p>
+          </section>
+          <div class="warp-number">
+            <div class="rating-number">1</div>
+            <div class="rating-number">2</div>
+            <div class="rating-number">3</div>
+            <div class="rating-number">4</div>
+            <div class="rating-number">5</div>
+          </div>
+          <button class="btn-submit">SUBMIT</button>
         </div>
-        <section class="let-us-know">
-          <h1>How did we do?</h1>
+        <section class="thank-you hidden">
+          <img src="./images/illustration-thank-you.svg" alt="" />
+          <span class="selected">
+            You selected
+
+            <span class="rating"></span> out of 5
+          </span>
+          <h1>Thank you!</h1>
           <p>
-            Please let us know how we did with your support request. All feedback is appreciated
-            to help us improve our offering!
+            We appreciate you taking the time to give a rating. If you ever need
+            more support, don’t hesitate to get in touch!
           </p>
         </section>
-        <div class="warp-number">
-          <div class="rating-number">
-            1
-          </div>
-          <div class="rating-number">
-            2
-          </div>
-          <div class="rating-number">
-            3
-          </div>
-          <div class="rating-number ">
-            4
-          </div>
-          <div class="rating-number">
-            5
-          </div>
-        </div>
-        <button class="btn-submit">
-          SUBMIT
-        </button>
-      </div>
-      <!-- Rating state end -->
-
-      <!-- Thank you state start -->
-      <section class="thank-you hidden">
-        <img src="./images/illustration-thank-you.svg" alt="">
-        <span class="selected">
-          You selected
-
-          <span class="rating"></span> out of 5
-        </span>
-        <h1>
-          Thank you!
-        </h1>
-        <p>
-          We appreciate you taking the time to give a rating. If you ever need more support,
-          don’t hesitate to get in touch!
-          <!-- Thank you state end -->
-        </p>
       </section>
-    </section>
-  </main>
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="https://www.frontendmentor.io/profile/RajSanjel">Raj</a>.
-  </div>
-</body>
-
+    </main>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://www.frontendmentor.io/profile/RajSanjel">Raj</a>.
+    </div>
+  </body>
 </html>
